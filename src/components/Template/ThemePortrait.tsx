@@ -21,11 +21,15 @@ export default function ThemePortrait({
   priority = false,
   className = '',
 }: ThemePortraitProps) {
+  // Use NEXT_PUBLIC_BASE_PATH when deployed to a subpath (e.g. GitHub Pages).
+  // Strip any trailing slash so joining is predictable. Falls back to root when not set.
+  const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? '').replace(/\/+$/, '');
+  const prefix = basePath ? `${basePath}` : '';
   return (
     <span className={`theme-portrait ${className}`}>
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/me-light.jpg"
+        src={`${prefix}/images/me-light.jpg`}
         alt="Abhishek Karthik Manikandan"
         width={width}
         height={height}
@@ -35,7 +39,7 @@ export default function ThemePortrait({
       />
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/me-dark.jpg"
+        src={`${prefix}/images/me-dark.jpg`}
         alt="Abhishek Karthik Manikandan"
         width={width}
         height={height}
