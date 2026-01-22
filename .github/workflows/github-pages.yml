@@ -64,6 +64,9 @@ jobs:
           NODE_ENV: production
           # Use environment variable for GA tracking ID
           NEXT_PUBLIC_GA_TRACKING_ID: ${{ vars.NEXT_PUBLIC_GA_TRACKING_ID }}
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH || '/personal-site' }}
+          NEXT_PUBLIC_ASSET_PREFIX: ${{ vars.NEXT_PUBLIC_ASSET_PREFIX || '/personal-site' }}
+
 
       - name: Verify build output
         run: |
