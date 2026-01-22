@@ -25,7 +25,7 @@ export default function ThemePortrait({
     <span className={`theme-portrait ${className}`}>
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/white.png"
+        src="/images/me-light.jpg"
         alt="Abhishek Karthik Manikandan"
         width={width}
         height={height}
@@ -35,7 +35,7 @@ export default function ThemePortrait({
       />
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/black.png"
+        src="/images/me-dark.jpg"
         alt="Abhishek Karthik Manikandan"
         width={width}
         height={height}
