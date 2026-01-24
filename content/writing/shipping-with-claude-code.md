@@ -109,18 +109,6 @@ A significant portion of my work involves static analysis. At Promptfoo I've bui
 
 Claude Code handles much of the mechanical overhead: locating relevant files, tracing data flows through a codebase, drafting fixes, running verification checks. I work with agents to reproduce and verify vulnerabilities.
 
-### Volume
-
-Running 6 panes in parallel lets work proceed concurrently: one agent implements a feature while another runs verification; a third reviews diffs or explores edge cases. No waiting, minimal context switching.
-
-In 2025 I merged 1,000+ PRs to Promptfoo:
-
-[![8,482 GitHub contributions in 2025](/images/writing/github-contributions-2025.png)](https://github.com/mldangelo?tab=overview&from=2025-01-01&to=2025-12-31)
-
-_This graph includes commits, PRs, reviews, and issue activity. I'm using it as a rough proxy for output._
-
-For comparison, I had [5,396 contributions in 2024](https://github.com/mldangelo?tab=overview&from=2024-01-01&to=2024-12-31), before these workflows were mature. Same person, different tooling.
-
 ## Using multiple models for verification
 
 I regularly check Claude's work using other models: running the Codex CLI and Gemini CLI in separate sessions.

@@ -28,6 +28,16 @@ const skills: Skill[] = [
     competency: 4,
     category: ['Languages', 'Databases'],
   },
+   {
+    title: 'Javascript',
+    competency: 5,
+    category: ['Languages','Web Development'],
+  },
+    {
+    title: 'Java',
+    competency: 3,
+    category: ['Languages',],
+  },
   // AI & LLM
   {
     title: 'AI Agents',
@@ -36,11 +46,6 @@ const skills: Skill[] = [
   },
   {
     title: 'LLM Evaluation',
-    competency: 5,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'AI Red-teaming',
     competency: 5,
     category: ['ML Engineering'],
   },
@@ -75,6 +80,11 @@ const skills: Skill[] = [
     category: ['ML Engineering', 'Data Engineering'],
   },
   // Web Development
+    {
+    title: 'Angular 18',
+    competency: 7,
+    category: ['Web Development'],
+  },
   {
     title: 'Node.js',
     competency: 5,
@@ -86,8 +96,13 @@ const skills: Skill[] = [
     category: ['Web Development'],
   },
   {
-    title: 'Next.js',
-    competency: 3,
+    title: 'React.js',
+    competency: 1,
+    category: ['Web Development'],
+  },
+  {
+    title: 'Nest.js',
+    competency: 1,
     category: ['Web Development'],
   },
   // Databases
@@ -107,6 +122,11 @@ const skills: Skill[] = [
     competency: 4,
     category: ['Infrastructure'],
   },
+   {
+    title: 'GCP',
+    competency: 4,
+    category: ['Infrastructure'],
+  },
   {
     title: 'Docker',
     competency: 4,
@@ -122,7 +142,23 @@ const skills: Skill[] = [
     competency: 4,
     category: ['Infrastructure', 'ML Engineering'],
   },
-].map((skill) => ({ ...skill, category: skill.category.sort() }));
+  // Data Engineering
+  {
+    title: 'PySpark',
+    competency: 5,
+    category:  ['Data Engineering'],
+  },
+  {
+    title: 'Hadoop',
+    competency: 5,
+    category:  ['Data Engineering'],
+  },
+  {
+    title: 'Azure ADSL 2',
+    competency: 5,
+    category:  ['Data Engineering'],
+  },
+];
 
 /**
  * Category colors with pre-computed text contrast.
@@ -158,7 +194,7 @@ const FALLBACK_COLORS: { color: string; textColor: 'dark' | 'light' }[] = [
 function buildCategories(skillsList: Skill[]): Category[] {
   const uniqueCategories = Array.from(
     new Set(skillsList.flatMap(({ category }) => category)),
-  ).sort();
+  );
 
   const allColors = [...CATEGORY_COLORS, ...FALLBACK_COLORS];
 

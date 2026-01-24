@@ -23,12 +23,12 @@ export default function ResumePage() {
     <PageWrapper>
       <section className="resume-page">
         <header className="resume-header">
-          <h1 className="resume-title">Resume</h1>
+          <h3 className="resume-title">Resume</h3>
           <p className="resume-summary">
-            Engineering leader with 10+ years building products at the
-            intersection of machine learning and security. Currently CTO &
-            Co-founder at Promptfoo, building open-source LLM security tools.
-            Stanford MS, YC alum, previously VP Engineering.
+            Engineering leader with 7+ years building products at the
+            intersection of machine learning, data engineering and full stack. 
+            Currently at Royal Bank Of Canada, redefinig HR workspace building open-source LLM AI powered full stack application and data pipelines.
+            Dalhousie MS, Anna university alum, previously SDE-2 @ Comcast India Engineering Center.
           </p>
         </header>
 

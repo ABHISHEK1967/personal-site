@@ -79,14 +79,6 @@ Then remove the "Writing" link from `src/data/routes.ts`.
 | Favicon             | `public/images/favicon/`                   |
 | Site metadata/SEO   | `app/layout.tsx`                           |
 
-### Step 7: Final Cleanup
-
-Search the codebase for "Michael" or "mldangelo" to find any remaining references to change.
-
-```bash
-grep -r "Michael" src/
-grep -r "mldangelo" .
-```
 
 ## Deployment
 
@@ -152,7 +144,7 @@ Edit `app/tailwind.css`. Find `:root` (light mode) and `[data-theme="dark"]` (da
 
 ## Getting Help
 
-- Open an issue: https://github.com/mldangelo/personal-site/issues
-- Email: help@mldangelo.com
+- Open an issue: https://abhishek1967.github.io/personal-site/issues
+- Email: karthik95abi@gmail.com
 
 If you find bugs or unclear instructions, please submit a PR—contributions help everyone.

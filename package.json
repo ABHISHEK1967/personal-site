@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.1.0",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://github.com/ABHISHEK1967/personal-site",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/ABHISHEK1967/personal-site.git"
   },
   "engines": {
     "node": ">=20.x"

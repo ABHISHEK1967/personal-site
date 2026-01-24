@@ -3,9 +3,9 @@
  */
 
 // Site configuration
-export const SITE_URL = 'https://mldangelo.com';
+export const SITE_URL = 'https://abhishek1967.github.io/personal-site/';
 export const AUTHOR_NAME = "Abhishek Karthik Manikandan";
-export const TWITTER_HANDLE = '@dangelosaurus';
+export const TWITTER_HANDLE = ' ';
 
 // Image dimension constants
 export const AVATAR_SIZE = {

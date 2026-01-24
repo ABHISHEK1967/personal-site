@@ -21,7 +21,7 @@ export default function Hero() {
             </a>
             .
             <br />
-            Redefining HR workspace with Full Stack powered AI products for over a decade.
+            Building Full Stack powered AI products for over a decade.
           </p>
 
           <div className="hero-chips">

@@ -5,7 +5,7 @@ import PageWrapper from '@/components/Template/PageWrapper';
 import data from '@/data/projects';
 
 export const metadata: Metadata = {
-  title: 'Archive',
+  title: 'Projects',
   description:
     "Early projects and experiments from Abhishek Karthik Manikandan (2015 and earlier).",
 };
@@ -18,7 +18,7 @@ export default function ProjectsPage() {
     <PageWrapper>
       <section className="projects-page">
         <header className="projects-header">
-          <h1 className="page-title">Archive</h1>
+          <h1 className="page-title">Projects</h1>
           <p className="page-subtitle">
             Early projects and experiments from my student years
           </p>
