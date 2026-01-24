@@ -1,19 +1,8 @@
-# Personal Website Template
-
-
-
+# My portfolio
 A free, open-source portfolio website template built with [Next.js](https://nextjs.org/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/). Fork it and make it your own in under an hour.
 
 **[See it live →](https://abhishek1967.github.io/personal-site/)**
 
-## Why This Template?
-
-- **Zero setup required.** Fork, open in GitHub Codespaces, and start editing.
-- **Modern tech stack.** Next.js 16, React 19, TypeScript, Tailwind CSS v4.
-- **Free hosting.** Deploys automatically to GitHub Pages.
-- **Dark mode.** System preference detection with manual toggle.
-- **Blog ready.** Markdown posts with RSS feed (optional).
-- **AI-friendly.** Works great with GitHub Copilot, Claude, and Cursor.
 
 ## Get Started
 

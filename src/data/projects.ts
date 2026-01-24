@@ -46,6 +46,7 @@ const data: Project[] = [
     title: 'Amazon Go',
     subtitle: '',
     image: `${prefix}/images/projects/amzn.png`,
+    link: 'https://github.com/ABHISHEK1967/Amazon-go-clone',
     date: '2022-03-15',
     desc: 'Production-style Amazon Go inspired e-commerce system demonstrating frontend + backend architecture, API design, system flows, and engineering best practices.',
     tech: ['Angular', 'Node.js', 'AWS', 'Monorepo','Express','JavaScript','HTML','CSS'],
