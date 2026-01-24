@@ -1,65 +1,48 @@
-export const aboutMarkdown = `# Intro
+export const aboutMarkdown = `# About Me
 
-I am the co-founder and CTO of [Promptfoo](https://promptfoo.dev), the most widely adopted open-source LLM security tool. We help teams discover and eliminate LLM risks through automated red-teaming and vulnerability analysis. Before Promptfoo, I was the VP of Engineering at [Smile ID](https://usesmileid.com), where I led teams building identity verification APIs that now process hundreds of millions of checks across Africa. I also co-founded [Arthena](https://arthena.com) (acquired by Masterworks) and [Matroid](https://matroid.com).
+I’m a Senior Software Engineer based in Vancouver, working at the intersection of full-stack engineering, applied AI, and distributed systems. I care about building technology that actually improves how people work and live — not just things that look impressive on paper.
 
-In my spare time, I enjoy investing in people and ideas through a [small venture fund](https://skepticalinvestments.biz), focusing on projects with high social impact. If you think I can be helpful to you or your cause, or if you're interested in collaborating, feel free to get in touch.
+Right now, I work at the Royal Bank of Canada in the HR AI Innovation Hub, where I prototype and ship agentic AI systems, internal RAG frameworks, and LLM-powered tools that help teams navigate the GenAI era. I enjoy taking ideas from rough sketches to production-grade systems, while keeping reliability, security, and human impact front and center.
+
+Before RBC, I built and modernized large-scale platforms at Comcast, Ayogo Healthcare, and Sanmina. Along the way, I’ve worked on everything from micro-frontend architectures and serverless distributed systems to machine learning models for forecasting, ticket classification, and business automation. Some of my most meaningful work has been in healthcare and enterprise tooling — improving performance, privacy, and accessibility for people who rely on these systems every day.
+
+I care deeply about mentorship and collective growth. I’ve led small engineering teams, mentored interns through production-ready AI projects, and enjoy helping others navigate both technical and career challenges. For me, engineering isn’t just about shipping features — it’s about building durable systems and empowering people to do their best work.
+
+I’m currently focused on LLMOps, AI agents, and scalable system design. I’m always learning — from deep learning with PyTorch to modern ML and data infrastructure. I believe thoughtful engineering, done with humility and curiosity, can meaningfully improve society.
+
+If you’re building something purposeful, exploring new ideas, or just want to exchange perspectives — I’d love to connect.
+
+---
 
 # Some History
 
-- My parents put a computer in my bedroom in 1993 when I was 3. It was an old Tandy that ran MS-DOS. My favorite games were Street Rod 2, Wolfenstein 3D, and Tom and Jerry. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
-- We subscribed to AOL in 1995. I still remember installing it from a floppy disk onto our brand-new Packard Bell. It took years for me to send my first email.
-- In the summer of 1996, my uncle purchased [MegaRace](https://en.wikipedia.org/wiki/MegaRace) from [Media Play](https://en.wikipedia.org/wiki/Media_Play) and installed it on my mom's work computer. I might have endangered her business by using her computer too much.
-- At 7, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
-- At 8, my parents bought me a Sony Mavica MVC-FD71 digital camera after I stole their SLR one too many times. It could fit 10 images to a floppy disk at a 0.3MP resolution. I still have it, and it still works. I've been taking photographs ever since, now with a Nikon D750, D800, and occasionally with a Mamiya 6II.
-- At 10, I built my first website with Microsoft FrontPage on our Pentium III [Gateway](https://en.wikipedia.org/wiki/Gateway,_Inc.). My website was terrible.
-- I was 11 when I built my first [Tesla Coil](https://en.wikipedia.org/wiki/Tesla_coil) (without my parents' permission). Over the next few years, I built several more, including one of the first audio modulated coils and one of the first DRSSTCs.
-- When I was 12, I set the all-time high record at my local laser tag facility by reverse engineering the charging station and weapon protocols with a photo-resistor, micro-cassette recorder, and a lot of patience. I was unstoppable.
-- At 13, I went to space camp and fell in love. I went back two more times and promised myself that I'd work in space. I've since helped build three generations of satellites and have contributed to two more.
-- At 14, I was almost expelled for finding a backdoor into my high school's file server and telling everyone but the faculty members about it. Later that year, I figured out how to turn off the internet firewall by editing system registry keys. I anonymously shared my work months later.
-- At 16, I participated in a foreign exchange program in Dortmund, Germany. Since then, I've gone back almost every year.
-- 14 - 17, I played a lot of video games. My favorites included Counter-Strike Source, Command and Conquer 3, Halo 2, and Age of Empires II.
-- At 18, in the summer before college, my friends and I started playing [Muggle Quidditch](<https://en.wikipedia.org/wiki/Quidditch_(sport)>). We went on to start over 8 teams in the [International Quidditch Association](https://en.wikipedia.org/wiki/International_Quidditch_Association), including the [Buffalo Quidditch Society](https://www.facebook.com/buffaloquidditch/). At our height, we were ranked third in the IQA. Although I don't play anymore, you can still see pictures of me holding a broom while wearing a chess camp t-shirt on Facebook.
-- At 19, I took my first graduate course and published my first academic paper.
-- At 20, I co-authored a grant to build a satellite and managed a 60+ person team for the next two years. You can read more about [that project](https://ubnl.space/glados/).
+- I studied Electronics and Communication Engineering at Anna University, which taught me how hardware, software, and systems thinking intersect.
+- I moved to Canada to pursue a Master’s in Applied Computer Science at Dalhousie University, where I deepened my interest in distributed systems and applied AI.
+- My early professional years were spent building full-stack platforms and microservices at Sanmina.
+- At Comcast, I helped modernize large production frontends and contributed to ML models for forecasting and attrition analysis.
+- At Ayogo Healthcare, I worked on serverless systems and performance optimization for a healthcare SaaS platform.
+- Today at RBC, I design and prototype agentic AI tools, internal RAG frameworks, and GenAI-driven workflows.
 
-Ask me in person for other stories that I'm afraid to share with the internet.
+---
 
 # I Like
 
-- Running.
-- Skiing.
-- Sailing and the sea.
-- Space.
-- Summer.
-- [Books](https://www.goodreads.com/mdangelo).
-- Colored pencils ([Faber-Castell Polychromos](https://www.faber-castell.com/products/art-and-graphic/polychromos)).
-- Podcasts ([The Daily](https://www.nytimes.com/column/the-daily), [The Ezra Klein Show](https://www.nytimes.com/column/ezra-klein-podcast), [Planet Money](https://www.npr.org/sections/money/), [The Indicator](https://www.npr.org/podcasts/510325/the-indicator-from-planet-money), [This American Life](https://www.thisamericanlife.org/), [99% Invisible](https://99percentinvisible.org/episodes/), [The Economist](http://radio.economist.com/), [Radiolab](https://www.wnycstudios.org/shows/radiolab), [Hidden Brain](https://www.npr.org/series/423302056/hidden-brain), [Inquiring Minds](https://inquiring.show), and others).
-- [Good design](/).
-- [Photography](https://instagram.com/dangelosaurus).
+- Photography.
+- The sea and hiking outdoors.
+- Running and skiing.
+- Good design.
+- Books and podcasts.
+- Colored pencils.
+- Learning new things.
+- Building useful technology.
 
-# Travel / Geography
 
-- I am originally from Buffalo, New York. I have since lived in Palo Alto, Mountain View, San Francisco, Seattle, and New York City.
-- I've been to approximately 50 countries, some of which I have forgotten, many of which I would like to revisit.
-- In 2016, I visited Canada, Ethiopia, Austria, Germany, Belgium, Ireland, Northern Ireland, Italy, Romania, Sweden, Norway, Svalbard, Panama, Costa Rica, Uganda, Japan, and the UAE, mostly in that order.
-- In 2017, I visited Canada, Japan, Denmark, Germany, Sweden, Estonia, Russia, the Netherlands, Belgium, the UK, Spain, Iceland, France, Switzerland, Ethiopia, and Luxembourg.
-- In 2018, I visited Canada, France, Italy, Israel, and the UK.
-- In 2019, I visited Canada, the UK, France, and Switzerland.
-- In 2020, I traveled barely 20 blocks. I stayed in New York and remodeled an apartment.
-- In 2021, I continued remodeling an apartment.
-- In 2022, I switched jobs and visited the UK, France, Greece, Belgium, Luxembourg, Germany, and Kenya.
-- In 2023, I visited France, the UK, Ireland, and Rwanda.
-- I am an Oregon Trail II enthusiast.
-
+---
 # Fun Facts
 
 - I have a list of thousands of ideas, like creating matching bow ties for cats and humans.
-- I almost always have a sketchbook with me and a [01 Sakura Pigma Micron Pen](https://www.sakuraofamerica.com/product/pigma-micron/).
 - I can't locate every country on a map.
-- I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns.
-- I break about 30 traffic laws on a skateboard or [bicycle](https://www.citibikenyc.com/) every single day.
-- I stack-rank coffee shops, restaurants, and every dog I see in New York.
-- I added this page because many people complained that my site was just my resume.
+---
 
 # I Dream Of
 
@@ -70,24 +53,44 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - Continually improving.
 - You not checking the commit history for earlier drafts of this file.
 
-# Websites from People I Admire
+---
 
-- [Alex Peysakhovich](http://alexpeys.github.io/)
-- [Chris Lengerich](http://www.chrislengerich.com/)
-- [Chris Saad](https://www.chrissaad.com/)
-- [Duncan Tomlin](http://duncantomlin.com/)
-- [Ed Kearney](https://edkearney.com/)
-- [Hawley Moore](http://hawleymoore.com/)
-- [Holman Gao](https://golmansax.com/)
-- [Ian Webster](http://ianww.com/)
-- [Johanna Flato](https://www.johannaflato.com/)
-- [Judy Mou](http://www.judymou.com/)
-- [Judy Suh](https://www.judysuh.com/)
-- [Kristina Monakhova](https://kristinamonakhova.com/)
-- [Noah Trueblood](http://notrueblood.com/)
-- [Ruoxi Wang](http://ruoxiw.com/)
-- [Tom Sachs](https://www.tomsachs.org/)
-- [Will Holley](https://willholley.com/)
+# Travel / Geography
 
-If we are friends and you feel like you belong on this list, you're probably right. Submit a PR, or ask me, and I'll add you.
+- I am originally from Madurai, Tamil Nadu, India. I have since lived in Trichy, Hyderabad, Jammu and Kashmir, Chennai, and Canada.
+- I've been to approximately 8 countries.
+- In 2016, I visited Dubai UAE which was my first international trip with my parents.
+- In 2017, I visited Singapore and Malaysia.
+- In 2021, I visited Canada for my higher studies.
+- In 2022, I traveled to the USA - New York for new year's eve.
+- In 2025, I travelled to Mexico and also to Bali Indonesia.
+---
+# People I Admire
+
+- Andrej Karpathy  
+  - https://karpathy.ai  
+  - https://twitter.com/karpathy
+
+- Sundar Pichai  
+  - https://twitter.com/sundarpichai
+
+- Fei-Fei Li  
+  - https://profiles.stanford.edu/fei-fei-li  
+  - https://twitter.com/drfeifei
+
+- Chris Lattner  
+  - https://nondot.org  
+  - https://twitter.com/clattner_llvm
+
+- Demis Hassabis  
+  - https://twitter.com/demishassabis
+
+- Patrick Collison  
+  - https://patrickcollison.com  
+  - https://twitter.com/patrickc
+
+- Bret Victor  
+  - http://worrydream.com  
+  - https://twitter.com/worrydream
+
 `;
