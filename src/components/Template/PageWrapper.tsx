@@ -12,7 +12,7 @@ interface PageWrapperProps {
  */
 export default function PageWrapper({
   children,
-  hideFooter = true,
+  hideFooter = false,
 }: PageWrapperProps) {
   return (
     <div className="page-container">

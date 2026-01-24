@@ -7,7 +7,7 @@ import { aboutMarkdown } from '@/data/about';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    "Learn about Abhishek Karthik Manikandan - Co-founder & CTO building LLM security tools.",
+    "Learn about Abhishek Karthik Manikandan - Senior Full Stack Developer at RBC.",
 };
 
 const countWords = (str: string) =>

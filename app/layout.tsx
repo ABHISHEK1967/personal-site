@@ -27,7 +27,7 @@ const raleway = Raleway({
 });
 
 const siteDescription =
-  'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.';
+  'Senior Full Stack Developer @RBC. Previously SDE-2 @Comcast, Dalhousie alum, Anna Univesity alum.';
 
 export const metadata: Metadata = {
   title: {
@@ -37,11 +37,11 @@ export const metadata: Metadata = {
   description: siteDescription,
   keywords: [
     AUTHOR_NAME,
-    'LLM security',
+    'LLM',
     'machine learning',
-    'CTO',
-    'startup founder',
-    'YC',
+    'Full Stack AI Developer',
+    'Deep Learning',
+    'Software Engineer',
   ],
   authors: [{ name: AUTHOR_NAME }],
   creator: AUTHOR_NAME,
