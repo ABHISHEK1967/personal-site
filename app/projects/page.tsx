@@ -20,13 +20,12 @@ export default function ProjectsPage() {
         <header className="projects-header">
           <h1 className="page-title">Projects</h1>
           <p className="page-subtitle">
-            Early projects and experiments from my student years
+            Early projects and experiments from my student years and the latest learnings.
           </p>
         </header>
 
         {featuredProjects.length > 0 && (
           <section className="projects-featured">
-            <h2 className="projects-section-title">Hackathons &amp; Awards</h2>
             <div className="projects-grid projects-grid--featured">
               {featuredProjects.map((project) => (
                 <Cell data={project} key={project.title} />

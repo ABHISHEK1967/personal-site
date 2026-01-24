@@ -9,42 +9,46 @@ export interface Project {
   featured?: boolean;
 }
 
+const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? '').replace(/\/+$/, '');
+const prefix = basePath ? `${basePath}` : '';
+
 const data: Project[] = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Connected to bank accounts to round up purchases and donate spare change to charity.',
-    tech: ['React', 'Node.js', 'Plaid API', 'MongoDB'],
+    title: 'RDBMS Engine in Java',
+    subtitle: '',
+    image: `${prefix}/images/projects/rdbms.png`,
+    link: 'https://github.com/ABHISHEK1967/RDBMS-JAVA',
+    date: '2021-12-20',
+    desc: 'A lightweight Relational Database Management System (RDBMS) implemented from scratch in Java, designed to mimic the internal architecture and execution flow of real-world databases such as MySQL and PostgreSQL at a simplified level.',
+    tech: ['Java'],
     featured: true,
   },
   {
-    title: 'Harvest',
-    subtitle: '3rd place at Techcrunch Disrupt SF',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc: 'Low-cost crop monitoring to catch irrigation leaks and nutrient deficiencies.',
-    tech: ['Python', 'Arduino', 'Computer Vision', 'AWS'],
+    title: 'E-commerce Website',
+    subtitle: '',
+    link: 'https://github.com/ABHISHEK1967/Scotia-jewellery-mart-Ecommerce',
+    image: `${prefix}/images/projects/fullstack.png`,
+    date: '2022-08-20',
+    desc: 'Scotia Jewellery Mart is a production-inspired, cloud-native e-commerce platform built using the MERN stack.',
+    tech: ['React', 'Node.js', 'AWS', 'Typescript','MongoDB','Express','JavaScript','HTML','CSS'],
     featured: true,
   },
   {
-    title: 'Space Potato',
-    subtitle: 'Kickstarter-funded weather balloon',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc: 'Potato-powered weather balloon with cameras. Photos published in a coffee table book.',
-    tech: ['Hardware', 'GPS', 'Photography'],
+    title: 'Halifax Foodie',
+    subtitle: '',
+    link: 'https://github.com/ABHISHEK1967/Halifax-Foodie',
+    image: `${prefix}/images/projects/foodie.png`,
+    date: '2022-08-20',
+    desc: 'Halifax Foodie is a production-grade, cloud-native, full-stack web application that delivers personalized food, kitchen, hotel, and tour recommendations using user profiling, questionnaires, and sentiment analysis.',
+    tech: ['React', 'AWS', 'Docker','GCP', 'Serverless','Hybrid Cloud','Dynamodb','API Gateway' ],
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'CNN for cat breed classification',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Classified 60,000+ cats across 80 breeds before server costs shut it down.',
-    tech: ['Python', 'TensorFlow', 'CNN', 'AWS'],
+    title: 'Amazon Go',
+    subtitle: '',
+    image: `${prefix}/images/projects/amzn.png`,
+    date: '2022-03-15',
+    desc: 'Production-style Amazon Go inspired e-commerce system demonstrating frontend + backend architecture, API design, system flows, and engineering best practices.',
+    tech: ['Angular', 'Node.js', 'AWS', 'Monorepo','Express','JavaScript','HTML','CSS'],
   },
 ];
 
